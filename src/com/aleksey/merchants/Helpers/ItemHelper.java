@@ -54,8 +54,8 @@ public class ItemHelper
         if(itemStack.getItem() instanceof IFood)
         {
             IFood food = (IFood)itemStack.getItem();
-            float foodDecay = removeDecay ? Math.max(food.getFoodDecay(itemStack), 0): 0;
-            int quantity = (int)(food.getFoodWeight(itemStack) - foodDecay);
+            float foodDecay = removeDecay ? Math.max(Food.getDecay(itemStack), 0): 0;
+            int quantity = (int)(Food.getWeight(itemStack) - foodDecay);
             
             return quantity > 0 ? quantity: 0;
         }
@@ -91,7 +91,7 @@ public class ItemHelper
         if(itemStack.getItem() instanceof IFood)
         {
             IFood food = (IFood)itemStack.getItem();
-            float newQuantity = food.getFoodWeight(itemStack) + quantity;
+            float newQuantity = Food.getWeight(itemStack) + quantity;
             
             Food.setWeight(itemStack, newQuantity);
         }
