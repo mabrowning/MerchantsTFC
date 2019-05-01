@@ -41,12 +41,16 @@ repositories {
         name "Mobius Repo"
         url "http://mobiusstrip.eu/maven"
     }
-    maven { // the repo from which to get NEI and stuff 
+    maven { // the repo from which to get NEI and stuff
         name 'CB Repo'
-        url "http://chickenbones.net/maven/"
+        url "https://modmaven.k-4u.nl/"
+    }
+    maven { // the repo from which to get NEI and stuff
+        name 'test2'
+        url "https://maven.cil.li/"
     }
 }
- 
+
 dependencies {
 	// Forcing version numbers for everything and using NO-NEI WAILA since the "transitive dependency resolution (gradle magic)" is currently borked.
 	compile "codechicken:CodeChickenCore:1.7.10-1.0.4.35:dev"
@@ -71,14 +75,15 @@ sourceSets {
      }
    }
  }
- 
+
+
 task copyJar(type: Copy) {
      from('build/libs') {
 		include '**/*.jar'
 	 }
      into 'C:/Users/Aleksey/AppData/Roaming/.minecraft_tfc/mods'
  }
- 
+
 tasks.build.dependsOn('copyJar')
 
 dependencies {
@@ -95,11 +100,11 @@ processResources
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-                
+
         // replace version and mcversion
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-        
+
     // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
