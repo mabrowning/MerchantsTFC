@@ -19,10 +19,10 @@ import com.aleksey.merchants.Core.BlockList;
 import com.aleksey.merchants.Core.DieInfo;
 import com.aleksey.merchants.Handlers.GuiHandler;
 import com.aleksey.merchants.TileEntities.TileEntityAnvilDie;
-import com.bioxx.tfc.api.TFCBlocks;
-import com.bioxx.tfc.api.TFCItems;
-import com.bioxx.tfc.Blocks.BlockTerraContainer;
-import com.bioxx.tfc.Core.TFCTabs;
+import com.dunk.tfc.api.TFCBlocks;
+import com.dunk.tfc.api.TFCItems;
+import com.dunk.tfc.Blocks.BlockTerraContainer;
+import com.dunk.tfc.Core.TFCTabs;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

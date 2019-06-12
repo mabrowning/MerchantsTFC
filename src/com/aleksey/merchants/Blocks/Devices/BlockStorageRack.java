@@ -20,9 +20,9 @@ import com.aleksey.merchants.Core.BlockList;
 import com.aleksey.merchants.Core.MerchantsTabs;
 import com.aleksey.merchants.Handlers.GuiHandler;
 import com.aleksey.merchants.TileEntities.TileEntityStorageRack;
-import com.bioxx.tfc.Blocks.BlockTerraContainer;
-import com.bioxx.tfc.api.TFCBlocks;
-import com.bioxx.tfc.api.Constant.Global;
+import com.dunk.tfc.Blocks.BlockTerraContainer;
+import com.dunk.tfc.api.TFCBlocks;
+import com.dunk.tfc.api.Constant.Global;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

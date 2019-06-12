@@ -10,9 +10,9 @@ import com.aleksey.merchants.Containers.Slots.SlotTrusselWithoutDie;
 import com.aleksey.merchants.GUI.GuiTrussel;
 import com.aleksey.merchants.Helpers.CoinHelper;
 import com.aleksey.merchants.Inventories.TrusselInventory;
-import com.bioxx.tfc.Containers.ContainerTFC;
-import com.bioxx.tfc.Containers.Slots.SlotOutputOnly;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.Containers.ContainerTFC;
+import com.dunk.tfc.Containers.Slots.SlotOutputOnly;
+import com.dunk.tfc.Core.Player.PlayerInventory;
 
 public class ContainerTrussel extends ContainerTFC
 {

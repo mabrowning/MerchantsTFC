@@ -8,9 +8,9 @@ import net.minecraft.world.World;
 
 import com.aleksey.merchants.GUI.GuiStallLimit;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.Containers.ContainerTFC;
-import com.bioxx.tfc.Containers.Slots.SlotForShowOnly;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.Containers.ContainerTFC;
+import com.dunk.tfc.Containers.Slots.SlotForShowOnly;
+import com.dunk.tfc.Core.Player.PlayerInventory;
 
 public class ContainerStallLimit extends ContainerTFC
 {

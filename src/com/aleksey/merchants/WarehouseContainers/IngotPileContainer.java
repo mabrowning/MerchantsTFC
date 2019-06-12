@@ -12,9 +12,9 @@ import com.aleksey.merchants.Helpers.ItemHelper;
 import com.aleksey.merchants.api.ItemSlot;
 import com.aleksey.merchants.api.ItemTileEntity;
 import com.aleksey.merchants.api.Point;
-import com.bioxx.tfc.Core.Metal.MetalRegistry;
-import com.bioxx.tfc.TileEntities.TEIngotPile;
-import com.bioxx.tfc.api.TFCBlocks;
+import com.dunk.tfc.Core.Metal.MetalRegistry;
+import com.dunk.tfc.TileEntities.TEIngotPile;
+import com.dunk.tfc.api.TFCBlocks;
 
 public class IngotPileContainer extends Container
 {

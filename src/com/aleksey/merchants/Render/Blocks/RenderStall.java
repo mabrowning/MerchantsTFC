@@ -9,7 +9,7 @@ import net.minecraft.world.IBlockAccess;
 import org.lwjgl.opengl.GL11;
 
 import com.aleksey.merchants.Blocks.Devices.BlockStall;
-import com.bioxx.tfc.api.TFCBlocks;
+import com.dunk.tfc.api.TFCBlocks;
 
 import cpw.mods.fml.client.registry.ISimpleBlockRenderingHandler;
 

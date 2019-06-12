@@ -16,8 +16,8 @@ import com.aleksey.merchants.Helpers.ItemHelper;
 import com.aleksey.merchants.Helpers.PrepareTradeResult;
 import com.aleksey.merchants.Helpers.WarehouseManager;
 import com.aleksey.merchants.Items.ItemWarehouseBook;
-import com.bioxx.tfc.Core.Player.PlayerManagerTFC;
-import com.bioxx.tfc.TileEntities.NetworkTileEntity;
+import com.dunk.tfc.Core.Player.PlayerManagerTFC;
+import com.dunk.tfc.TileEntities.NetworkTileEntity;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

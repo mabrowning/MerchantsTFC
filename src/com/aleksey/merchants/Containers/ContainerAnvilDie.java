@@ -10,11 +10,11 @@ import com.aleksey.merchants.Containers.Slots.SlotFlan;
 import com.aleksey.merchants.Containers.Slots.SlotTrussel;
 import com.aleksey.merchants.GUI.GuiAnvilDie;
 import com.aleksey.merchants.TileEntities.TileEntityAnvilDie;
-import com.bioxx.tfc.Containers.ContainerTFC;
-import com.bioxx.tfc.Containers.Slots.SlotAnvilHammer;
-import com.bioxx.tfc.Containers.Slots.SlotForShowOnly;
-import com.bioxx.tfc.Containers.Slots.SlotOutputOnly;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.Containers.ContainerTFC;
+import com.dunk.tfc.Containers.Slots.SlotAnvilHammer;
+import com.dunk.tfc.Containers.Slots.SlotForShowOnly;
+import com.dunk.tfc.Containers.Slots.SlotOutputOnly;
+import com.dunk.tfc.Core.Player.PlayerInventory;
 
 public class ContainerAnvilDie extends ContainerTFC
 {

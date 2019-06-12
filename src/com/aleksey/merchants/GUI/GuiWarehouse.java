@@ -9,8 +9,8 @@ import net.minecraft.world.World;
 
 import com.aleksey.merchants.Containers.ContainerWarehouse;
 import com.aleksey.merchants.TileEntities.TileEntityWarehouse;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.GUI.GuiContainerTFC;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.GUI.GuiContainerTFC;
 
 public class GuiWarehouse extends GuiContainerTFC
 {

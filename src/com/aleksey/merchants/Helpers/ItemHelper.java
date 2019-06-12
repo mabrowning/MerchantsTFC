@@ -4,10 +4,10 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import com.bioxx.tfc.Food.ItemFoodTFC;
-import com.bioxx.tfc.TileEntities.TEIngotPile;
-import com.bioxx.tfc.api.Food;
-import com.bioxx.tfc.api.Interfaces.IFood;
+import com.dunk.tfc.Food.ItemFoodTFC;
+import com.dunk.tfc.TileEntities.TEIngotPile;
+import com.dunk.tfc.api.Food;
+import com.dunk.tfc.api.Interfaces.IFood;
 
 public class ItemHelper
 {

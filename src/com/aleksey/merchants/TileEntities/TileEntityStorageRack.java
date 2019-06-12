@@ -8,8 +8,8 @@ import net.minecraft.nbt.NBTTagList;
 import net.minecraft.util.AxisAlignedBB;
 
 import com.aleksey.merchants.Core.ItemList;
-import com.bioxx.tfc.Core.TFC_Core;
-import com.bioxx.tfc.TileEntities.NetworkTileEntity;
+import com.dunk.tfc.Core.TFC_Core;
+import com.dunk.tfc.TileEntities.NetworkTileEntity;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

@@ -22,12 +22,12 @@ import com.aleksey.merchants.Helpers.ItemHelper;
 import com.aleksey.merchants.Helpers.PrepareTradeResult;
 import com.aleksey.merchants.Items.ItemWarehouseBook;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.Containers.ContainerTFC;
-import com.bioxx.tfc.Containers.Slots.SlotForShowOnly;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.Food.ItemFoodTFC;
-import com.bioxx.tfc.api.Interfaces.IFood;
-import com.bioxx.tfc.api.Food;
+import com.dunk.tfc.Containers.ContainerTFC;
+import com.dunk.tfc.Containers.Slots.SlotForShowOnly;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.Food.ItemFoodTFC;
+import com.dunk.tfc.api.Interfaces.IFood;
+import com.dunk.tfc.api.Food;
 
 //slotClick is based on https://github.com/Mr-J/AdvancedBackpackMod/blob/master/unrelated/slotClick%2BComments%2BRename%2BHelpers.java.txt
 

@@ -10,7 +10,7 @@ import com.aleksey.merchants.Blocks.Devices.BlockWarehouse;
 import com.aleksey.merchants.ItemBlocks.ItemStall;
 import com.aleksey.merchants.ItemBlocks.ItemStorageRack;
 import com.aleksey.merchants.ItemBlocks.ItemWarehouse;
-import com.bioxx.tfc.api.Constant.Global;
+import com.dunk.tfc.api.Constant.Global;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

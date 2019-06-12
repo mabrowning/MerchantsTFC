@@ -13,8 +13,8 @@ import com.aleksey.merchants.Handlers.ChunkEventHandler;
 import com.aleksey.merchants.Handlers.Network.DieCopyPacket;
 import com.aleksey.merchants.Handlers.Network.InitClientWorldPacket;
 import com.aleksey.merchants.Helpers.WarehouseManager;
-import com.bioxx.tfc.TerraFirmaCraft;
-import com.bioxx.tfc.api.TFCItems;
+import com.dunk.tfc.TerraFirmaCraft;
+import com.dunk.tfc.api.TFCItems;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;

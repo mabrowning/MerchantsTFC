@@ -6,9 +6,9 @@ import net.minecraft.util.IIcon;
 
 import com.aleksey.merchants.Core.Constants;
 import com.aleksey.merchants.Core.MerchantsTabs;
-import com.bioxx.tfc.Items.ItemTerra;
-import com.bioxx.tfc.api.Enums.EnumSize;
-import com.bioxx.tfc.api.Enums.EnumWeight;
+import com.dunk.tfc.Items.ItemTerra;
+import com.dunk.tfc.api.Enums.EnumSize;
+import com.dunk.tfc.api.Enums.EnumWeight;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

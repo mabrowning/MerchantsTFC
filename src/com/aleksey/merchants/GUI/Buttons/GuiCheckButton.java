@@ -6,7 +6,7 @@ import net.minecraft.util.ResourceLocation;
 
 import org.lwjgl.opengl.GL11;
 
-import com.bioxx.tfc.Core.TFC_Core;
+import com.dunk.tfc.Core.TFC_Core;
 
 public class GuiCheckButton extends GuiButton
 {

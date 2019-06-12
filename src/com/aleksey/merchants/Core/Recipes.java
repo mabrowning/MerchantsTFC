@@ -8,13 +8,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
-import com.bioxx.tfc.api.TFCItems;
-import com.bioxx.tfc.api.Constant.Global;
-import com.bioxx.tfc.api.Crafting.AnvilManager;
-import com.bioxx.tfc.api.Crafting.AnvilRecipe;
-import com.bioxx.tfc.api.Crafting.AnvilReq;
-import com.bioxx.tfc.api.Crafting.PlanRecipe;
-import com.bioxx.tfc.api.Enums.RuleEnum;
+import com.dunk.tfc.api.TFCItems;
+import com.dunk.tfc.api.Constant.Global;
+import com.dunk.tfc.api.Crafting.AnvilManager;
+import com.dunk.tfc.api.Crafting.AnvilRecipe;
+import com.dunk.tfc.api.Crafting.AnvilReq;
+import com.dunk.tfc.api.Crafting.PlanRecipe;
+import com.dunk.tfc.api.Enums.RuleEnum;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -104,12 +104,12 @@ public class Recipes
             DieInfo info = Constants.Dies[i];
             AnvilReq anvil = getAnvil(info.Level);
             
-            Item trusselMetalItem = GameRegistry.findItem("terrafirmacraft", info.TrusselMetalName);
+            Item trusselMetalItem = GameRegistry.findItem("terrafirmacraftplus", info.TrusselMetalName);
             ItemStack trussel = new ItemStack(ItemList.Trussel, 1, i);
 
             manager.addRecipe(new AnvilRecipe(new ItemStack(trusselMetalItem), null, TrusselPlan, false, anvil, trussel).addRecipeSkill(Global.SKILL_GENERAL_SMITHING));
 
-            Item anvilDieMetalItem = GameRegistry.findItem("terrafirmacraft", info.AnvilDieMetalName);
+            Item anvilDieMetalItem = GameRegistry.findItem("terrafirmacraftplus", info.AnvilDieMetalName);
             ItemStack anvilDie = new ItemStack(ItemList.AnvilDie, 1, i);
 
             manager.addRecipe(new AnvilRecipe(new ItemStack(anvilDieMetalItem), null, AnvilDiePlan, false, anvil, anvilDie).addRecipeSkill(Global.SKILL_GENERAL_SMITHING));
@@ -120,7 +120,7 @@ public class Recipes
             CoinInfo info = Constants.Coins[i];
             AnvilReq anvil = getAnvil(info.Level);
             
-            Item flanMetalItem = GameRegistry.findItem("terrafirmacraft", info.MetalName);
+            Item flanMetalItem = GameRegistry.findItem("terrafirmacraftplus", info.MetalName);
             ItemStack flan = new ItemStack(ItemList.Flan, 1, i);
 
             manager.addRecipe(new AnvilRecipe(new ItemStack(flanMetalItem), null, FlanPlan, false, anvil, flan).addRecipeSkill(Global.SKILL_GENERAL_SMITHING));

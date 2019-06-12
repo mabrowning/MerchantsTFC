@@ -12,8 +12,8 @@ import org.lwjgl.input.Keyboard;
 
 import com.aleksey.merchants.Containers.ContainerStallLimit;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.GUI.GuiContainerTFC;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.GUI.GuiContainerTFC;
 
 public class GuiStallLimit extends GuiContainerTFC
 {

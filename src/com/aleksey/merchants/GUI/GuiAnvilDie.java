@@ -12,8 +12,8 @@ import com.aleksey.merchants.Core.CoinInfo;
 import com.aleksey.merchants.Core.Constants;
 import com.aleksey.merchants.Helpers.CoinHelper;
 import com.aleksey.merchants.TileEntities.TileEntityAnvilDie;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.GUI.GuiContainerTFC;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.GUI.GuiContainerTFC;
 
 public class GuiAnvilDie extends GuiContainerTFC
 {

@@ -11,10 +11,10 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.item.ItemTool;
 import net.minecraft.tileentity.TileEntity;
 
-import com.bioxx.tfc.Items.Tools.ItemProPick;
-import com.bioxx.tfc.Items.Tools.ItemSpindle;
-import com.bioxx.tfc.Items.Tools.ItemWeapon;
-import com.bioxx.tfc.TileEntities.TEToolRack;
+import com.dunk.tfc.Items.Tools.ItemProPick;
+import com.dunk.tfc.Items.Tools.ItemSpindle;
+import com.dunk.tfc.Items.Tools.ItemWeapon;
+import com.dunk.tfc.TileEntities.TEToolRack;
 
 public class ToolRackContainer extends ChestContainer
 {

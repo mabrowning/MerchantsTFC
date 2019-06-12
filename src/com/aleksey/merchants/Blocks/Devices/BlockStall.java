@@ -24,7 +24,7 @@ import com.aleksey.merchants.Core.MerchantsTabs;
 import com.aleksey.merchants.Handlers.GuiHandler;
 import com.aleksey.merchants.Render.Blocks.RenderStall;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.Blocks.BlockTerraContainer;
+import com.dunk.tfc.Blocks.BlockTerraContainer;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;

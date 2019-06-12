@@ -11,9 +11,9 @@ import net.minecraft.world.World;
 import com.aleksey.merchants.api.ItemSlot;
 import com.aleksey.merchants.api.ItemTileEntity;
 import com.aleksey.merchants.api.Point;
-import com.bioxx.tfc.Containers.Slots.SlotLogPile;
-import com.bioxx.tfc.TileEntities.TELogPile;
-import com.bioxx.tfc.api.TFCBlocks;
+import com.dunk.tfc.Containers.Slots.SlotLogPile;
+import com.dunk.tfc.TileEntities.TELogPile;
+import com.dunk.tfc.api.TFCBlocks;
 
 public class LogPileContainer extends ChestContainer
 {

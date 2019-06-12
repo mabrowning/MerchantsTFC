@@ -14,9 +14,9 @@ import com.aleksey.merchants.Core.WarehouseBookInfo;
 import com.aleksey.merchants.GUI.Buttons.GuiLimitButton;
 import com.aleksey.merchants.Helpers.ItemHelper;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.TerraFirmaCraft;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.GUI.GuiContainerTFC;
+import com.dunk.tfc.TerraFirmaCraft;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.GUI.GuiContainerTFC;
 
 public class GuiStall extends GuiContainerTFC
 {

@@ -10,8 +10,8 @@ import org.lwjgl.opengl.GL11;
 
 import com.aleksey.merchants.Render.Blocks.RenderStall;
 import com.aleksey.merchants.TileEntities.TileEntityStall;
-import com.bioxx.tfc.Items.ItemBlocks.ItemAnvil;
-import com.bioxx.tfc.Render.TESR.TESRBase;
+import com.dunk.tfc.Items.ItemBlocks.ItemAnvil;
+import com.dunk.tfc.Render.TESR.TESRBase;
 
 public class TESRStall extends TESRBase
 {

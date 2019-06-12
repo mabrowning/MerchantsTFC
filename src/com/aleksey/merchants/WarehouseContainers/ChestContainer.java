@@ -16,10 +16,10 @@ import com.aleksey.merchants.TileEntities.TileEntityStorageRack;
 import com.aleksey.merchants.api.ItemSlot;
 import com.aleksey.merchants.api.ItemTileEntity;
 import com.aleksey.merchants.api.Point;
-import com.bioxx.tfc.Containers.ContainerChestTFC;
-import com.bioxx.tfc.Containers.Slots.SlotChest;
-import com.bioxx.tfc.Items.Pottery.ItemPotterySmallVessel;
-import com.bioxx.tfc.TileEntities.TEChest;
+import com.dunk.tfc.Containers.ContainerChestTFC;
+import com.dunk.tfc.Containers.Slots.SlotChest;
+import com.dunk.tfc.Items.Pottery.ItemPotterySmallVessel;
+import com.dunk.tfc.TileEntities.TEChest;
 
 public class ChestContainer extends Container
 {

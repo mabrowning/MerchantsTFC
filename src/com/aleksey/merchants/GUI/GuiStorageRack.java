@@ -7,8 +7,8 @@ import net.minecraft.world.World;
 
 import com.aleksey.merchants.Containers.ContainerStorageRack;
 import com.aleksey.merchants.TileEntities.TileEntityStorageRack;
-import com.bioxx.tfc.Core.Player.PlayerInventory;
-import com.bioxx.tfc.GUI.GuiContainerTFC;
+import com.dunk.tfc.Core.Player.PlayerInventory;
+import com.dunk.tfc.GUI.GuiContainerTFC;
 
 public class GuiStorageRack extends GuiContainerTFC
 {

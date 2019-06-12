@@ -19,9 +19,9 @@ import org.lwjgl.opengl.GL11;
 import com.aleksey.merchants.GUI.Buttons.GuiCheckButton;
 import com.aleksey.merchants.Helpers.CoinHelper;
 import com.aleksey.merchants.Items.ItemTrussel;
-import com.bioxx.tfc.TerraFirmaCraft;
-import com.bioxx.tfc.Core.TFC_Core;
-import com.bioxx.tfc.Handlers.Network.ItemNBTPacket;
+import com.dunk.tfc.TerraFirmaCraft;
+import com.dunk.tfc.Core.TFC_Core;
+import com.dunk.tfc.Handlers.Network.ItemNBTPacket;
 
 public class GuiTrusselCreate extends GuiScreen
 {
