@@ -13,10 +13,13 @@ import com.aleksey.merchants.Handlers.ChunkEventHandler;
 import com.aleksey.merchants.Handlers.Network.DieCopyPacket;
 import com.aleksey.merchants.Handlers.Network.InitClientWorldPacket;
 import com.aleksey.merchants.Helpers.WarehouseManager;
+import com.aleksey.merchants.WarehouseContainers.CellarShelfContainer;
+import com.aleksey.merchants.api.WarehouseContainerList;
 import com.dunk.tfc.TerraFirmaCraft;
 import com.dunk.tfc.api.TFCItems;
 
 import cpw.mods.fml.common.FMLCommonHandler;
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -25,7 +28,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="MerchantsTFC", name="Merchants", version="1.1.2", dependencies="after:TerraFirmaCraft")
+@Mod(modid="MerchantsTFC", name="Merchants", version="1.1.7", dependencies="after:TerraFirmaCraft")
 public class MerchantsMod
 {
     @Instance("MerchantsTFC")
@@ -69,6 +72,9 @@ public class MerchantsMod
         Recipes.registerRecipes();
         
         WarehouseManager.init();
+        
+        if (Loader.isModLoaded("tfccellars"))
+            WarehouseContainerList.addContainer(new CellarShelfContainer());
         
 		//WAILA stuff
 		proxy.registerWailaClasses();

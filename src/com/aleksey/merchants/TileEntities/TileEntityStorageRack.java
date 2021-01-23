@@ -200,6 +200,6 @@ public class TileEntityStorageRack extends NetworkTileEntity implements IInvento
     @Override
     public void updateEntity()
     {
-        TFC_Core.handleItemTicking(this, worldObj, xCoord, yCoord, zCoord);
+        TFC_Core.handleItemTicking(this, worldObj, xCoord, yCoord, zCoord, false);
     }
 }
