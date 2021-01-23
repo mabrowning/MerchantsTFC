@@ -7,6 +7,7 @@ import net.minecraft.tileentity.TileEntity;
 import com.dunk.tfc.Containers.ContainerChestTFC;
 import com.dunk.tfc.Containers.Slots.SlotChest;
 import com.dunk.tfc.TileEntities.TEBarrel;
+import com.dunk.tfc.TileEntities.TEBasket;
 import com.dunk.tfc.TileEntities.TEVessel;
 import com.dunk.tfc.api.Food;
 import com.dunk.tfc.api.Enums.EnumSize;
@@ -20,7 +21,8 @@ public class BarrelContainer extends ChestContainer
         Class<?> cls = tileEntity.getClass(); 
         
         return cls == TEBarrel.class
-                || cls == TEVessel.class;
+                || cls == TEVessel.class
+        		|| cls == TEBasket.class;
     }
     
     protected boolean canSearchItem(TileEntity tileEntity)
@@ -58,6 +60,9 @@ public class BarrelContainer extends ChestContainer
             return new SlotChest(inventory, 0, 0, 0).setSize(EnumSize.LARGE).addItemException(ContainerChestTFC.getExceptions()).isItemValid(itemStack);
 
         if(cls == TEVessel.class)
+            return new SlotChest(inventory, 0, 0, 0).setSize(EnumSize.MEDIUM).addItemException(ContainerChestTFC.getExceptions()).isItemValid(itemStack);
+        
+        if(cls == TEBasket.class)
             return new SlotChest(inventory, 0, 0, 0).setSize(EnumSize.MEDIUM).addItemException(ContainerChestTFC.getExceptions()).isItemValid(itemStack);
 
         return false;
